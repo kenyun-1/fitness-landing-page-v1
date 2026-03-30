@@ -1,0 +1,65 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+
+html{scroll-behavior: smooth;}
+
+body {
+  background-color: #0D0D0D;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  padding: 20px;
+  
+}
+
+button {
+  background-color: #FF3B3B;
+  color: white;
+  border: none;
+}
+
+.card {
+  background-color: #1F1F1F;
+}
+
+hero__container{text-align: center;
+               padding: 20px;
+               display: flex;}
+
+section{padding: 30px 20px;}
+
+nav ul{display: flex;
+   justify-content: space-between;
+      list-style: none;
+      padding: 0;
+      margin: 0;}
+nav a{text-decoration: none;
+     color: white;}
+nav li{text-decoration: none;}
+nav li:hover{color: white;}
+
+.features__container{display: flex;
+                    gap: 20px;
+                    flex-wrap: wrap;
+                    justify-content: center;}
+
+.card{padding: 20px;
+     border-radius: 10px;
+     width: 300px;}
+.card{transition: transform 0.3s ease;}
+.card:hover{transform: translateY(-5px);}
+.card{box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);}
+
+.cta {
+  text-align: center;
+}
+
+.cta button {
+  background-color: #22c55e;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+button:hover{opacity: 0.8;}
